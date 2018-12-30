@@ -1,0 +1,11 @@
+2018-12-30 19:22:31.149  INFO 10736 --- [restartedMain] com.az.task.SpringBootTaskApplication    : Starting SpringBootTaskApplication on NRWPTEC02BJHB-W with PID 10736 (D:\eclispeWorkspace\springBoot-JMS-Consumer-Publisher\target\classes started by Az in D:\eclispeWorkspace\springBoot-JMS-Consumer-Publisher)
+2018-12-30 19:22:31.150  INFO 10736 --- [restartedMain] com.az.task.SpringBootTaskApplication    : No active profile set, falling back to default profiles: default
+2018-12-30 19:22:31.377  INFO 10736 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-30 19:22:31.396  INFO 10736 --- [restartedMain] com.az.task.SpringBootTaskApplication    : Started SpringBootTaskApplication in 0.456 seconds (JVM running for 423.279)
+2018-12-30 19:22:31.398  INFO 10736 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-30 19:22:40.517  INFO 10736 --- [restartedMain] com.az.task.SpringBootTaskApplication    : Starting SpringBootTaskApplication on NRWPTEC02BJHB-W with PID 10736 (D:\eclispeWorkspace\springBoot-JMS-Consumer-Publisher\target\classes started by Az in D:\eclispeWorkspace\springBoot-JMS-Consumer-Publisher)
+2018-12-30 19:22:40.518  INFO 10736 --- [restartedMain] com.az.task.SpringBootTaskApplication    : No active profile set, falling back to default profiles: default
+2018-12-30 19:22:40.745  INFO 10736 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-30 19:22:40.765  INFO 10736 --- [restartedMain] com.az.task.SpringBootTaskApplication    : Started SpringBootTaskApplication in 0.276 seconds (JVM running for 432.648)
+2018-12-30 19:22:40.767  INFO 10736 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-12-30 19:29:00.211  INFO 10736 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
