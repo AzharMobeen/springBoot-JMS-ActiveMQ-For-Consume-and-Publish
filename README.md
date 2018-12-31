@@ -4,6 +4,8 @@ It's a simple Spring-Boot Application for Consuming messages from ActiveMQ Queue
 
 
 * Run ActiveMQ.
+* Default url:  http://localhost:8161/
+* Login by default user **(admin/admin)**
 * Create Queue with name **source** in ActiveMQ-Queues. 
 * Please set activeMQ url, inbound.endpoing and outbound.endpoint in **properties.yml**
 
