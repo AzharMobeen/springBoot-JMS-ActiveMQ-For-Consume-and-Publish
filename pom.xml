@@ -44,6 +44,16 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.activemq.tooling/activemq-junit -->
+		<dependency>
+		    <groupId>org.apache.activemq.tooling</groupId>
+		    <artifactId>activemq-junit</artifactId>
+		    <version>5.15.8</version>
+		    <scope>test</scope>
+		</dependency>
+
+		
 	</dependencies>
 
 	<build>

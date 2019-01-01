@@ -5,14 +5,20 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 
+@AllArgsConstructor
 @Data
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "CTRL_SEG")
 public class CtrlSeg {
 
+	public CtrlSeg() {
+		// TODO Auto-generated constructor stub
+	}
+	
     @XmlElement(name="TRNNAM")
     private String trnName;
     

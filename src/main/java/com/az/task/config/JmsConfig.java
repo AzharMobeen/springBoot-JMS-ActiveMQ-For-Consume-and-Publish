@@ -9,12 +9,18 @@ import javax.xml.bind.Marshaller;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.jms.annotation.EnableJms;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.support.converter.MarshallingMessageConverter;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 
+@EnableJms
 @Configuration
 public class JmsConfig {
+
+	/*
+	@Autowired
+	private ConnectionFactory connectionFactory;	*/	
 
 	@Bean
 	public MarshallingMessageConverter createMarshallingMessageConverter(final Jaxb2Marshaller jaxb2Marshaller) {
@@ -36,8 +42,31 @@ public class JmsConfig {
 	public JmsTemplate jmsTemplate(final MarshallingMessageConverter marshallingMessageConverter,ConnectionFactory connectionFactory){
 	    JmsTemplate template = new JmsTemplate();
 	    template.setConnectionFactory(connectionFactory);	    
-	    template.setMessageConverter(marshallingMessageConverter);	    
+	    template.setMessageConverter(marshallingMessageConverter);
+	    /*
+	     * By default jmsTemplate transmit to Queues by having pubSubDomain set to false, 
+	       As per requirement I need to transmit messages to Topic. so I make pubSubDomain set to true,
+	       link :https://spring.io/guides/gs/messaging-jms/
+	        
+	     */      
 	    template.setPubSubDomain(true);
 	    return template;
 	}
+	
+	/*@Bean
+	public DefaultJmsListenerContainerFactory defaultJmsListenerContainerFactory() {
+		DefaultJmsListenerContainerFactory factory = new DefaultJmsListenerContainerFactory();				
+		factory.setConnectionFactory(connectionFactory);
+		//factory.setConcurrency("1-1");
+		return factory;
+	}
+	
+	@Bean
+	public JmsListenerContainerFactory<DefaultMessageListenerContainer> jmsListenerContainerFactory() {
+	    DefaultJmsListenerContainerFactory factory = new DefaultJmsListenerContainerFactory();
+	    factory.setConnectionFactory(connectionFactory);
+	    return factory;
+	}*/
+
+	
 }

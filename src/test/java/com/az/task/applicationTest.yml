@@ -1,0 +1,14 @@
+spring:
+  activemq:
+    broker-url: vm://embedded-broker?create=false
+
+inbound:
+  endpoint: source
+  
+outbound:
+  endpoint: destination
+
+
+jaxb:
+  package: com.az.task.model
+
