@@ -1,5 +1,6 @@
 package com.az.task.component;
 
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.annotation.JmsListener;
@@ -14,6 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Component
+@Data
 public class TaskComponent {
 
 	@Autowired

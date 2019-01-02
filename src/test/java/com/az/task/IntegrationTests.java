@@ -8,14 +8,15 @@ import java.util.Arrays;
 import javax.jms.ConnectionFactory;
 
 import org.apache.activemq.junit.EmbeddedActiveMQBroker;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.ClassRule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.autoconfigure.jms.JmsProperties;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.support.converter.MarshallingMessageConverter;
 import org.springframework.test.context.TestPropertySource;
@@ -30,13 +31,11 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@TestPropertySource("classpath:com/az/task/applicationTest.yml")
+@TestPropertySource(properties= {"spring.activemq.broker-url=vm://localhost?broker.persistent=false&broker.useShutdownHook=false","spring.activemq.in-memory=true"})
 public class IntegrationTests{			
 
 	@ClassRule
-	public static EmbeddedActiveMQBroker broker = new EmbeddedActiveMQBroker();
-	
-	//private final ActiveMQProperties properties = new ActiveMQProperties();
+	public static EmbeddedActiveMQBroker broker = new EmbeddedActiveMQBroker();	
 	
 	@Autowired
 	private ConnectionFactory connectionFactory;
@@ -58,22 +57,21 @@ public class IntegrationTests{
 	
 	@Before
 	public void configurations() {
-		connectionFactory = broker.createConnectionFactory();
+		connectionFactory = broker.createConnectionFactory();		
 		this.jmsTemplate = new JmsTemplate(this.connectionFactory);		
 		this.jmsTemplate.setMessageConverter(marshallingMessageConverter);
-		this.prepareDummyData();	
-		JmsProperties properties = new JmsProperties();
-		if(properties!=null)
-			System.out.println(properties.getListener());
-	}
+		this.prepareDummyData();				
+	}	
+	
 	
 	@Test
 	public void consumerFromQueuesAndSendToTopic() {
 		
 		// For consume test I need to Publish message to ("source") ActiveMQ-Queues 
-		// Then it will consume from same Queue and Send to ("destination") ActiveMQ-Topics						  
+		// Then it will consume from same Queue and Send to ("destination") ActiveMQ-Topics
 		this.jmsTemplate.convertAndSend(source,stockLevel);
-		// With In three seconds. @JmsListener from TaskComponent will consume message. 
+		// With In three seconds. @JmsListener from TaskComponent will consume message.
+		
         try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {	
@@ -90,7 +88,6 @@ public class IntegrationTests{
 		stockLevel.setCtrlSegList(Arrays.asList(ctrlSeg));				
 		this.stockLevel = stockLevel;
 	}
-	
-	
+
 	
 }

@@ -1504,3 +1504,626 @@ org.apache.activemq.transport.TransportDisposedIOException: peer (vm://embedded-
 2019-01-01 22:22:15.885  INFO 12756 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-61637-1546361366678-0:1) is shutting down
 2019-01-01 22:22:15.900  INFO 12756 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-61637-1546361366678-0:1) uptime 1 hour 32 minutes
 2019-01-01 22:22:15.901  INFO 12756 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-61637-1546361366678-0:1) is shutdown
+2019-01-02 10:33:13.701  INFO 10732 --- [restartedMain] com.az.task.SpringBootTaskApplication    : Starting SpringBootTaskApplication on ssr-dpf-106 with PID 10732 (D:\Workspace\privet\springBoot-JMS-ActiveMQ-For-Consume-and-Publish\target\classes started by INTERACTIVE in D:\Workspace\privet\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 10:33:13.725  INFO 10732 --- [restartedMain] com.az.task.SpringBootTaskApplication    : No active profile set, falling back to default profiles: default
+2019-01-02 10:33:13.754  INFO 10732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-02 10:33:14.526  INFO 10732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-02 10:33:14.853  INFO 10732 --- [restartedMain] com.az.task.SpringBootTaskApplication    : Started SpringBootTaskApplication in 2.188 seconds (JVM running for 5.743)
+2019-01-02 10:33:50.301  INFO 10732 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 10:33:50.302  INFO 10732 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 10:33:50.303  INFO 10732 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 10:33:50.334  INFO 10732 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 10:34:48.476  INFO 11356 --- [main] com.az.task.UnitTests                    : Starting UnitTests on ssr-dpf-106 with PID 11356 (started by INTERACTIVE in D:\Workspace\privet\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 10:34:48.477  INFO 11356 --- [main] com.az.task.UnitTests                    : No active profile set, falling back to default profiles: default
+2019-01-02 10:34:49.369  INFO 11356 --- [main] com.az.task.UnitTests                    : Started UnitTests in 1.17 seconds (JVM running for 2.094)
+2019-01-02 10:34:49.697  INFO 10732 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 10:34:49.697  INFO 10732 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 10:34:49.697  INFO 10732 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 10:34:49.698  INFO 10732 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 10:35:25.547  INFO 13244 --- [main] com.az.task.UnitTests                    : Starting UnitTests on ssr-dpf-106 with PID 13244 (started by INTERACTIVE in D:\Workspace\privet\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 10:35:25.548  INFO 13244 --- [main] com.az.task.UnitTests                    : No active profile set, falling back to default profiles: default
+2019-01-02 10:35:26.366  INFO 13244 --- [main] com.az.task.UnitTests                    : Started UnitTests in 1.099 seconds (JVM running for 1.857)
+2019-01-02 10:35:26.560  INFO 13244 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 10:35:26.561  INFO 13244 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 10:35:26.561  INFO 13244 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 10:35:26.580  INFO 13244 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 10:50:01.738  INFO 11336 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on ssr-dpf-106 with PID 11336 (started by INTERACTIVE in D:\Workspace\privet\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 10:50:01.739  INFO 11336 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 10:50:02.414  INFO 11336 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 0.883 seconds (JVM running for 1.982)
+2019-01-02 10:50:02.567  INFO 11336 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 10:50:02.604  INFO 11336 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 10:50:02.604  INFO 11336 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 10:50:02.604  INFO 11336 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 10:50:02.611  INFO 11336 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 10:50:05.659  INFO 11336 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 10:50:05.662  INFO 11336 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-60683-1546411801255-0:1) is shutting down
+2019-01-02 10:50:05.748  INFO 11336 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 10:50:05.749  INFO 11336 --- [ActiveMQ Connection Executor: vm://embedded-broker#2] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+javax.jms.JMSException: peer (vm://embedded-broker#3) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1193) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1159) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_144]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://embedded-broker#3) stopped.
+	... 9 common frames omitted
+
+2019-01-02 10:50:05.751  WARN 11336 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Setup of JMS message listener invoker failed for destination 'source' - trying to recover. Cause: The Consumer is closed
+2019-01-02 10:50:05.752 ERROR 11336 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not create Transport. Reason: java.io.IOException: Broker named 'embedded-broker' does not exist.
+2019-01-02 10:50:05.756  INFO 11336 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-60683-1546411801255-0:1) uptime 4.566 seconds
+2019-01-02 10:50:05.756  INFO 11336 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-60683-1546411801255-0:1) is shutdown
+2019-01-02 10:51:11.478  INFO 9992 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on ssr-dpf-106 with PID 9992 (started by INTERACTIVE in D:\Workspace\privet\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 10:51:11.479  INFO 9992 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 10:51:13.223  INFO 9992 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 1.957 seconds (JVM running for 3.048)
+2019-01-02 10:51:13.342  INFO 9992 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 10:51:16.456  INFO 9992 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 10:51:16.457  INFO 9992 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 10:51:16.457  INFO 9992 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-60797-1546411870996-0:1) is shutting down
+2019-01-02 10:51:16.462  INFO 9992 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-60797-1546411870996-0:1) uptime 5.531 seconds
+2019-01-02 10:51:16.462  INFO 9992 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-60797-1546411870996-0:1) is shutdown
+2019-01-02 10:56:14.821  INFO 4260 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on ssr-dpf-106 with PID 4260 (started by INTERACTIVE in D:\Workspace\privet\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 10:56:14.822  INFO 4260 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 10:56:16.583  INFO 4260 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 1.995 seconds (JVM running for 3.07)
+2019-01-02 10:56:16.688  INFO 4260 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 10:56:19.804  INFO 4260 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 10:56:19.805  INFO 4260 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 10:56:19.806  INFO 4260 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-61249-1546412174319-0:1) is shutting down
+2019-01-02 10:56:19.811  INFO 4260 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-61249-1546412174319-0:1) uptime 5.567 seconds
+2019-01-02 10:56:19.812  INFO 4260 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-61249-1546412174319-0:1) is shutdown
+2019-01-02 10:56:26.851  INFO 11356 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on ssr-dpf-106 with PID 11356 (started by INTERACTIVE in D:\Workspace\privet\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 10:56:26.852  INFO 11356 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 10:56:28.673  INFO 11356 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 2.057 seconds (JVM running for 3.345)
+2019-01-02 10:56:56.900 ERROR 11356 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-01-02 10:57:51.746 ERROR 11356 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-01-02 10:57:51.782  INFO 11356 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 10:58:05.357 ERROR 11356 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=2, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-01-02 10:58:30.310 ERROR 11356 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=3, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-01-02 10:58:32.874  INFO 11356 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 10:58:32.875  INFO 11356 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 10:58:32.878  INFO 11356 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-61274-1546412186318-0:1) is shutting down
+2019-01-02 10:58:32.887  INFO 11356 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-61274-1546412186318-0:1) uptime 2 minutes
+2019-01-02 10:58:32.887  INFO 11356 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-61274-1546412186318-0:1) is shutdown
+2019-01-02 11:06:19.376  INFO 12964 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on ssr-dpf-106 with PID 12964 (started by INTERACTIVE in D:\Workspace\privet\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 11:06:19.377  INFO 12964 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 11:06:21.671  INFO 12964 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 2.782 seconds (JVM running for 4.612)
+2019-01-02 11:07:19.663 ERROR 12964 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-01-02 11:07:19.682  INFO 12964 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 11:11:38.046 ERROR 12964 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.SocketException: Socket operation on nonsocket: configureBlocking
+2019-01-02 11:11:38.106  INFO 12964 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 11:11:38.108  INFO 12964 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 11:11:38.111  INFO 12964 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-62199-1546412778474-0:1) is shutting down
+2019-01-02 11:11:38.116  INFO 12964 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-62199-1546412778474-0:1) uptime 5 minutes
+2019-01-02 11:11:38.116  INFO 12964 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-62199-1546412778474-0:1) is shutdown
+2019-01-02 11:11:49.164  INFO 10976 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on ssr-dpf-106 with PID 10976 (started by INTERACTIVE in D:\Workspace\privet\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 11:11:49.165  INFO 10976 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 11:11:51.389  INFO 10976 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 2.679 seconds (JVM running for 4.461)
+2019-01-02 11:12:03.463 ERROR 10976 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-01-02 11:12:25.503  INFO 10976 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 11:12:26.778 ERROR 10976 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-01-02 11:19:14.016 ERROR 10976 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=2, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-01-02 11:19:14.124  INFO 10976 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 11:19:14.126  INFO 10976 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 11:19:14.127  INFO 10976 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-62718-1546413108331-0:1) is shutting down
+2019-01-02 11:19:14.136  INFO 10976 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-62718-1546413108331-0:1) uptime 7 minutes
+2019-01-02 11:19:14.136  INFO 10976 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-62718-1546413108331-0:1) is shutdown
+2019-01-02 12:04:19.346  INFO 7672 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on ssr-dpf-106 with PID 7672 (started by INTERACTIVE in D:\Workspace\privet\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 12:04:19.348  INFO 7672 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 12:04:21.073  INFO 7672 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 1.915 seconds (JVM running for 3.05)
+2019-01-02 12:04:21.202  INFO 7672 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 12:04:24.269  INFO 7672 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 12:04:24.288  INFO 7672 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 12:04:24.289  INFO 7672 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-51232-1546416258875-0:1) is shutting down
+2019-01-02 12:04:24.294  INFO 7672 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-51232-1546416258875-0:1) uptime 5.497 seconds
+2019-01-02 12:04:24.295  INFO 7672 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:ssr-dpf-106-51232-1546416258875-0:1) is shutdown
+2019-01-02 12:55:34.704  INFO 33528 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on hp-01 with PID 33528 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 12:55:34.705  INFO 33528 --- [main] com.az.task.IntegrationTests             : The following profiles are active: test
+2019-01-02 12:55:35.333  INFO 33528 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 0.859 seconds (JVM running for 1.959)
+2019-01-02 12:55:35.449  INFO 33528 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 12:55:35.490  INFO 33528 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 12:55:35.490  INFO 33528 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 12:55:35.491  INFO 33528 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 12:55:35.492  INFO 33528 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 12:55:35.497  INFO 33528 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 12:55:38.516  INFO 33528 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 12:55:38.518  INFO 33528 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-60698-1546419334223-0:1) is shutting down
+2019-01-02 12:55:38.521  INFO 33528 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 12:55:38.523  INFO 33528 --- [ActiveMQ Connection Executor: vm://embedded-broker#2] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+javax.jms.JMSException: peer (vm://embedded-broker#3) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1193) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1159) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_144]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://embedded-broker#3) stopped.
+	... 9 common frames omitted
+
+2019-01-02 12:55:38.524  WARN 33528 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Setup of JMS message listener invoker failed for destination 'source' - trying to recover. Cause: The Consumer is closed
+2019-01-02 12:55:38.525 ERROR 33528 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not create Transport. Reason: java.io.IOException: Broker named 'embedded-broker' does not exist.
+2019-01-02 12:55:38.527  INFO 33528 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-60698-1546419334223-0:1) uptime 4.376 seconds
+2019-01-02 12:55:38.527  INFO 33528 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-60698-1546419334223-0:1) is shutdown
+2019-01-02 12:55:52.475  INFO 33824 --- [main] com.az.task.UnitTests                    : Starting UnitTests on hp-01 with PID 33824 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 12:55:52.476  INFO 33824 --- [main] com.az.task.UnitTests                    : The following profiles are active: test
+2019-01-02 12:55:53.104  INFO 33824 --- [main] com.az.task.UnitTests                    : Started UnitTests in 0.88 seconds (JVM running for 1.648)
+2019-01-02 12:56:24.606  INFO 33500 --- [main] com.az.task.UnitTests                    : Starting UnitTests on hp-01 with PID 33500 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 12:56:24.607  INFO 33500 --- [main] com.az.task.UnitTests                    : The following profiles are active: test
+2019-01-02 12:56:25.267  INFO 33500 --- [main] com.az.task.UnitTests                    : Started UnitTests in 0.925 seconds (JVM running for 1.681)
+2019-01-02 12:59:23.759  INFO 33016 --- [main] com.az.task.UnitTests                    : Starting UnitTests on hp-01 with PID 33016 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 12:59:23.759  INFO 33016 --- [main] com.az.task.UnitTests                    : The following profiles are active: test
+2019-01-02 12:59:24.431  INFO 33016 --- [main] com.az.task.UnitTests                    : Started UnitTests in 0.929 seconds (JVM running for 1.663)
+2019-01-02 12:59:47.003  INFO 35996 --- [main] com.az.task.UnitTests                    : Starting UnitTests on hp-01 with PID 35996 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 12:59:47.004  INFO 35996 --- [main] com.az.task.UnitTests                    : The following profiles are active: test
+2019-01-02 12:59:47.952  INFO 35996 --- [main] com.az.task.UnitTests                    : Started UnitTests in 1.342 seconds (JVM running for 2.782)
+2019-01-02 13:01:37.919  INFO 21084 --- [main] com.az.task.UnitTests                    : Starting UnitTests on hp-01 with PID 21084 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:01:37.920  INFO 21084 --- [main] com.az.task.UnitTests                    : The following profiles are active: test
+2019-01-02 13:01:38.879  INFO 21084 --- [main] com.az.task.UnitTests                    : Started UnitTests in 1.341 seconds (JVM running for 2.768)
+2019-01-02 13:02:19.344  INFO 22008 --- [main] com.az.task.UnitTests                    : Starting UnitTests on hp-01 with PID 22008 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:02:19.346  INFO 22008 --- [main] com.az.task.UnitTests                    : No active profile set, falling back to default profiles: default
+2019-01-02 13:02:20.531  INFO 22008 --- [main] com.az.task.UnitTests                    : Started UnitTests in 1.554 seconds (JVM running for 2.947)
+2019-01-02 13:02:23.376  INFO 22008 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:02:23.377  INFO 22008 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:02:23.377  INFO 22008 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:02:23.403  INFO 22008 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:07:55.351  INFO 33560 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on hp-01 with PID 33560 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:07:55.352  INFO 33560 --- [main] com.az.task.IntegrationTests             : The following profiles are active: test
+2019-01-02 13:07:56.224  INFO 33560 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 1.197 seconds (JVM running for 2.978)
+2019-01-02 13:07:56.402  INFO 33560 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 13:07:56.456  INFO 33560 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:07:56.456  INFO 33560 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:07:56.457  INFO 33560 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:07:56.457  INFO 33560 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 13:07:56.466  INFO 33560 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:07:59.509  INFO 33560 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 13:07:59.512  INFO 33560 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-61932-1546420074668-0:1) is shutting down
+2019-01-02 13:07:59.518  INFO 33560 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 13:07:59.521  INFO 33560 --- [ActiveMQ Connection Executor: vm://embedded-broker#2] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+javax.jms.JMSException: peer (vm://embedded-broker#3) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1193) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1159) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_144]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://embedded-broker#3) stopped.
+	... 9 common frames omitted
+
+2019-01-02 13:07:59.523  WARN 33560 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Setup of JMS message listener invoker failed for destination 'source' - trying to recover. Cause: The Session is closed
+2019-01-02 13:07:59.525 ERROR 33560 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not create Transport. Reason: java.io.IOException: Broker named 'embedded-broker' does not exist.
+2019-01-02 13:07:59.528  INFO 33560 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-61932-1546420074668-0:1) uptime 4.955 seconds
+2019-01-02 13:07:59.529  INFO 33560 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-61932-1546420074668-0:1) is shutdown
+2019-01-02 13:08:48.170  INFO 35308 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on hp-01 with PID 35308 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:08:48.171  INFO 35308 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 13:08:48.799  INFO 35308 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 0.827 seconds (JVM running for 1.903)
+2019-01-02 13:08:48.909  INFO 35308 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 13:08:48.950  INFO 35308 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:08:48.951  INFO 35308 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:08:48.951  INFO 35308 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:08:48.952  INFO 35308 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 13:08:48.957  INFO 35308 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:08:51.980  INFO 35308 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 13:08:51.982  INFO 35308 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-62018-1546420127725-0:1) is shutting down
+2019-01-02 13:08:51.985  INFO 35308 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 13:08:51.987  INFO 35308 --- [ActiveMQ Connection Executor: vm://embedded-broker#2] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+javax.jms.JMSException: peer (vm://embedded-broker#3) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1193) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1159) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_144]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://embedded-broker#3) stopped.
+	... 9 common frames omitted
+
+2019-01-02 13:08:51.988  WARN 35308 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Setup of JMS message listener invoker failed for destination 'source' - trying to recover. Cause: The Session is closed
+2019-01-02 13:08:51.989 ERROR 35308 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not create Transport. Reason: java.io.IOException: Broker named 'embedded-broker' does not exist.
+2019-01-02 13:08:51.990  INFO 35308 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-62018-1546420127725-0:1) uptime 4.335 seconds
+2019-01-02 13:08:51.990  INFO 35308 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-62018-1546420127725-0:1) is shutdown
+2019-01-02 13:09:02.252  INFO 30804 --- [main] com.az.task.UnitTests                    : Starting UnitTests on hp-01 with PID 30804 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:09:02.253  INFO 30804 --- [main] com.az.task.UnitTests                    : No active profile set, falling back to default profiles: default
+2019-01-02 13:09:03.058  INFO 30804 --- [main] com.az.task.UnitTests                    : Started UnitTests in 1.047 seconds (JVM running for 1.821)
+2019-01-02 13:09:03.218  INFO 30804 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:09:03.219  INFO 30804 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:09:03.219  INFO 30804 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:09:03.227  INFO 30804 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:09:40.229  INFO 10964 --- [restartedMain] com.az.task.SpringBootTaskApplication    : Starting SpringBootTaskApplication on hp-01 with PID 10964 (D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish\target\classes started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:09:40.232  INFO 10964 --- [restartedMain] com.az.task.SpringBootTaskApplication    : No active profile set, falling back to default profiles: default
+2019-01-02 13:09:40.255  INFO 10964 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-02 13:09:40.763  INFO 10964 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-02 13:09:40.935  INFO 10964 --- [restartedMain] com.az.task.SpringBootTaskApplication    : Started SpringBootTaskApplication in 0.888 seconds (JVM running for 1.655)
+2019-01-02 13:10:51.019  INFO 10964 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:10:51.020  INFO 10964 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:10:51.020  INFO 10964 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:10:51.035  INFO 10964 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:12:31.075  INFO 13140 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on hp-01 with PID 13140 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:12:31.077  INFO 13140 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 13:12:32.001  INFO 13140 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 1.237 seconds (JVM running for 3.163)
+2019-01-02 13:12:32.204  INFO 13140 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 13:12:32.258  INFO 13140 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:12:32.259  INFO 13140 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:12:32.259  INFO 13140 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:12:32.268  INFO 13140 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:12:35.307  INFO 13140 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 13:12:35.311  INFO 13140 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-62406-1546420350432-0:1) is shutting down
+2019-01-02 13:12:35.318  INFO 13140 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 13:12:35.321  INFO 13140 --- [ActiveMQ Connection Executor: vm://embedded-broker#2] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+javax.jms.JMSException: peer (vm://embedded-broker#3) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1193) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1159) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_144]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://embedded-broker#3) stopped.
+	... 9 common frames omitted
+
+2019-01-02 13:12:35.322  WARN 13140 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Setup of JMS message listener invoker failed for destination 'source' - trying to recover. Cause: The Consumer is closed
+2019-01-02 13:12:35.324 ERROR 13140 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not create Transport. Reason: java.io.IOException: Broker named 'embedded-broker' does not exist.
+2019-01-02 13:12:35.325  INFO 13140 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-62406-1546420350432-0:1) uptime 4.993 seconds
+2019-01-02 13:12:35.325  INFO 13140 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-62406-1546420350432-0:1) is shutdown
+2019-01-02 13:15:39.149  INFO 10964 --- [restartedMain] com.az.task.SpringBootTaskApplication    : Starting SpringBootTaskApplication on hp-01 with PID 10964 (D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish\target\classes started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:15:39.150  INFO 10964 --- [restartedMain] com.az.task.SpringBootTaskApplication    : No active profile set, falling back to default profiles: default
+2019-01-02 13:15:39.287  INFO 10964 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-02 13:15:39.328  INFO 10964 --- [restartedMain] com.az.task.SpringBootTaskApplication    : Started SpringBootTaskApplication in 0.199 seconds (JVM running for 360.045)
+2019-01-02 13:15:39.330  INFO 10964 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-02 13:18:34.607  INFO 36976 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on hp-01 with PID 36976 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:18:34.608  INFO 36976 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 13:18:35.470  INFO 36976 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 1.167 seconds (JVM running for 2.918)
+2019-01-02 13:18:35.678  INFO 36976 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 13:18:35.731  INFO 36976 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:18:35.732  INFO 36976 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:18:35.732  INFO 36976 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:18:35.742  INFO 36976 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:18:38.787  INFO 36976 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 13:18:38.790  INFO 36976 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63045-1546420714008-0:1) is shutting down
+2019-01-02 13:18:38.796  INFO 36976 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 13:18:38.797  INFO 36976 --- [ActiveMQ Connection Executor: vm://embedded-broker#2] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+javax.jms.JMSException: peer (vm://embedded-broker#3) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1193) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1159) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_144]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://embedded-broker#3) stopped.
+	... 9 common frames omitted
+
+2019-01-02 13:18:38.799  WARN 36976 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Setup of JMS message listener invoker failed for destination 'source' - trying to recover. Cause: The Session is closed
+2019-01-02 13:18:38.802 ERROR 36976 --- [DefaultMessageListenerContainer-1] o.apache.activemq.broker.BrokerService   : Cannot create SystemUsage
+
+java.io.IOException: org.apache.activemq.store.kahadb.KahaDBPersistenceAdapter
+	at org.apache.activemq.util.IOExceptionSupport.create(IOExceptionSupport.java:40) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.BrokerService.createPersistenceAdapter(BrokerService.java:2507) [activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.BrokerService.getPersistenceAdapter(BrokerService.java:1267) [activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.BrokerService.getSystemUsage(BrokerService.java:1179) [activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.BrokerService.checkMemorySystemUsageLimits(BrokerService.java:2178) [activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.BrokerService.start(BrokerService.java:611) [activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.vm.VMTransportFactory.doCompositeConnect(VMTransportFactory.java:127) [activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.vm.VMTransportFactory.doConnect(VMTransportFactory.java:56) [activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFactory.connect(TransportFactory.java:65) [activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnectionFactory.createTransport(ActiveMQConnectionFactory.java:331) [activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:346) [activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:304) [activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:244) [activemq-client-5.15.8.jar:5.15.8]
+	at org.springframework.jms.connection.SingleConnectionFactory.doCreateConnection(SingleConnectionFactory.java:403) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.connection.SingleConnectionFactory.initConnection(SingleConnectionFactory.java:343) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.connection.SingleConnectionFactory.getConnection(SingleConnectionFactory.java:321) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.connection.SingleConnectionFactory.createConnection(SingleConnectionFactory.java:236) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:196) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:411) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:396) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:940) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:914) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1098) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+Caused by: java.lang.ClassNotFoundException: org.apache.activemq.store.kahadb.KahaDBPersistenceAdapter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_144]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_144]
+	at org.apache.activemq.broker.BrokerService.createPersistenceAdapter(BrokerService.java:2502) [activemq-broker-5.15.8.jar:5.15.8]
+	... 22 common frames omitted
+
+2019-01-02 13:18:38.803 ERROR 36976 --- [DefaultMessageListenerContainer-1] o.apache.activemq.broker.BrokerService   : Failed to start Apache ActiveMQ (embedded-broker, null)
+
+java.lang.RuntimeException: Fatally failed to create SystemUsageorg.apache.activemq.store.kahadb.KahaDBPersistenceAdapter
+	at org.apache.activemq.broker.BrokerService.getSystemUsage(BrokerService.java:1190) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.BrokerService.checkMemorySystemUsageLimits(BrokerService.java:2178) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.BrokerService.start(BrokerService.java:611) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.vm.VMTransportFactory.doCompositeConnect(VMTransportFactory.java:127) [activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.vm.VMTransportFactory.doConnect(VMTransportFactory.java:56) [activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFactory.connect(TransportFactory.java:65) [activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnectionFactory.createTransport(ActiveMQConnectionFactory.java:331) [activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:346) [activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:304) [activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:244) [activemq-client-5.15.8.jar:5.15.8]
+	at org.springframework.jms.connection.SingleConnectionFactory.doCreateConnection(SingleConnectionFactory.java:403) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.connection.SingleConnectionFactory.initConnection(SingleConnectionFactory.java:343) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.connection.SingleConnectionFactory.getConnection(SingleConnectionFactory.java:321) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.connection.SingleConnectionFactory.createConnection(SingleConnectionFactory.java:236) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:196) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:411) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:396) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:940) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:914) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1098) [spring-jms-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+Caused by: java.io.IOException: org.apache.activemq.store.kahadb.KahaDBPersistenceAdapter
+	at org.apache.activemq.util.IOExceptionSupport.create(IOExceptionSupport.java:40) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.BrokerService.createPersistenceAdapter(BrokerService.java:2507) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.BrokerService.getPersistenceAdapter(BrokerService.java:1267) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.BrokerService.getSystemUsage(BrokerService.java:1179) ~[activemq-broker-5.15.8.jar:5.15.8]
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.activemq.store.kahadb.KahaDBPersistenceAdapter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_144]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335) ~[na:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_144]
+	at org.apache.activemq.broker.BrokerService.createPersistenceAdapter(BrokerService.java:2502) ~[activemq-broker-5.15.8.jar:5.15.8]
+	... 22 common frames omitted
+
+2019-01-02 13:18:38.803  INFO 36976 --- [DefaultMessageListenerContainer-1] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, null) is shutting down
+2019-01-02 13:18:38.805  INFO 36976 --- [DefaultMessageListenerContainer-1] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, null) uptime 0.004 seconds
+2019-01-02 13:18:38.805  INFO 36976 --- [DefaultMessageListenerContainer-1] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, null) is shutdown
+2019-01-02 13:18:38.805 ERROR 36976 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not create Transport. Reason: java.lang.RuntimeException: Fatally failed to create SystemUsageorg.apache.activemq.store.kahadb.KahaDBPersistenceAdapter
+2019-01-02 13:18:38.806  INFO 36976 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63045-1546420714008-0:1) uptime 4.906 seconds
+2019-01-02 13:18:38.806  INFO 36976 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63045-1546420714008-0:1) is shutdown
+2019-01-02 13:19:37.110  INFO 32832 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on hp-01 with PID 32832 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:19:37.111  INFO 32832 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 13:19:37.939  INFO 32832 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 1.14 seconds (JVM running for 2.877)
+2019-01-02 13:19:38.130  INFO 32832 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 13:19:42.003  INFO 32832 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 13:19:42.005  INFO 32832 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63149-1546420776473-0:1) is shutting down
+2019-01-02 13:19:42.006  INFO 32832 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 13:19:42.012  INFO 32832 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63149-1546420776473-0:1) uptime 5.643 seconds
+2019-01-02 13:19:42.012  INFO 32832 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63149-1546420776473-0:1) is shutdown
+2019-01-02 13:22:11.601  INFO 32152 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on hp-01 with PID 32152 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:22:11.603  INFO 32152 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 13:22:12.522  INFO 32152 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 1.317 seconds (JVM running for 3.31)
+2019-01-02 13:22:12.719  INFO 32152 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 13:22:15.848  INFO 32152 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 13:22:15.850  INFO 32152 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63404-1546420930801-0:1) is shutting down
+2019-01-02 13:22:15.850  INFO 32152 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 13:22:15.858  INFO 32152 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63404-1546420930801-0:1) uptime 5.228 seconds
+2019-01-02 13:22:15.858  INFO 32152 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63404-1546420930801-0:1) is shutdown
+2019-01-02 13:22:46.565  INFO 22580 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on hp-01 with PID 22580 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:22:46.567  INFO 22580 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 13:22:47.460  INFO 22580 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 1.177 seconds (JVM running for 2.873)
+2019-01-02 13:22:47.622  INFO 22580 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 13:22:47.670  INFO 22580 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:22:47.671  INFO 22580 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:22:47.671  INFO 22580 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:22:47.679  INFO 22580 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:22:50.719  INFO 22580 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 13:22:50.721  INFO 22580 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63463-1546420965959-0:1) is shutting down
+2019-01-02 13:22:50.728  INFO 22580 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 13:22:50.732  INFO 22580 --- [ActiveMQ Connection Executor: vm://embedded-broker#2] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+javax.jms.JMSException: peer (vm://embedded-broker#3) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1193) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1159) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_144]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://embedded-broker#3) stopped.
+	... 9 common frames omitted
+
+2019-01-02 13:22:50.733  WARN 22580 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Setup of JMS message listener invoker failed for destination 'source' - trying to recover. Cause: The Session is closed
+2019-01-02 13:22:50.734 ERROR 22580 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not create Transport. Reason: java.io.IOException: Broker named 'embedded-broker' does not exist.
+2019-01-02 13:22:50.736  INFO 22580 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63463-1546420965959-0:1) uptime 4.856 seconds
+2019-01-02 13:22:50.736  INFO 22580 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63463-1546420965959-0:1) is shutdown
+2019-01-02 13:25:04.607  INFO 32476 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on hp-01 with PID 32476 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:25:04.608  INFO 32476 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 13:25:05.341  INFO 32476 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 0.922 seconds (JVM running for 2.024)
+2019-01-02 13:25:05.465  INFO 32476 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 13:25:05.505  INFO 32476 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:25:05.506  INFO 32476 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:25:05.506  INFO 32476 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:25:05.513  INFO 32476 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:25:05.529  INFO 32476 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 13:25:05.531  INFO 32476 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63683-1546421104169-0:1) is shutting down
+2019-01-02 13:25:05.534  INFO 32476 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 13:25:05.535  INFO 32476 --- [ActiveMQ Connection Executor: vm://embedded-broker#2] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+javax.jms.JMSException: peer (vm://embedded-broker#3) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1193) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1159) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_144]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://embedded-broker#3) stopped.
+	... 9 common frames omitted
+
+2019-01-02 13:25:05.536  WARN 32476 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Setup of JMS message listener invoker failed for destination 'source' - trying to recover. Cause: The Session is closed
+2019-01-02 13:25:05.537 ERROR 32476 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not create Transport. Reason: java.io.IOException: Broker named 'embedded-broker' does not exist.
+2019-01-02 13:25:05.538  INFO 32476 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63683-1546421104169-0:1) uptime 1.444 seconds
+2019-01-02 13:25:05.538  INFO 32476 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63683-1546421104169-0:1) is shutdown
+2019-01-02 13:25:46.210  INFO 31524 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on hp-01 with PID 31524 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:25:46.212  INFO 31524 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 13:25:47.035  INFO 31524 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 1.132 seconds (JVM running for 2.829)
+2019-01-02 13:25:47.241  INFO 31524 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 13:25:47.323  INFO 31524 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:25:47.324  INFO 31524 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:25:47.324  INFO 31524 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:25:47.332  INFO 31524 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:25:50.365  INFO 31524 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 13:25:50.369  INFO 31524 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63754-1546421145608-0:1) is shutting down
+2019-01-02 13:25:50.375  INFO 31524 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 13:25:50.376  INFO 31524 --- [ActiveMQ Connection Executor: vm://embedded-broker#2] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+javax.jms.JMSException: peer (vm://embedded-broker#3) stopped.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.vm.VMTransport.stop(VMTransport.java:233) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.stop(TransportFilter.java:72) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.stop(ResponseCorrelator.java:132) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection.doStop(TransportConnection.java:1193) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at org.apache.activemq.broker.TransportConnection$4.run(TransportConnection.java:1159) ~[activemq-broker-5.15.8.jar:5.15.8]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_144]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_144]
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://embedded-broker#3) stopped.
+	... 9 common frames omitted
+
+2019-01-02 13:25:50.379  WARN 31524 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Setup of JMS message listener invoker failed for destination 'source' - trying to recover. Cause: The Session is closed
+2019-01-02 13:25:50.380 ERROR 31524 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not create Transport. Reason: java.io.IOException: Broker named 'embedded-broker' does not exist.
+2019-01-02 13:25:50.383  INFO 31524 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63754-1546421145608-0:1) uptime 4.861 seconds
+2019-01-02 13:25:50.383  INFO 31524 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63754-1546421145608-0:1) is shutdown
+2019-01-02 13:27:28.554  INFO 37584 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on hp-01 with PID 37584 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:27:28.555  INFO 37584 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 13:27:29.185  WARN 37584 --- [main] o.apache.activemq.broker.BrokerRegistry  : Broker localhost not started so using embedded-broker instead
+2019-01-02 13:27:29.185  INFO 37584 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://localhost started
+2019-01-02 13:27:29.199  INFO 37584 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 0.836 seconds (JVM running for 1.96)
+2019-01-02 13:27:29.318  INFO 37584 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 13:27:29.357  INFO 37584 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:27:29.357  INFO 37584 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:27:29.358  INFO 37584 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:27:29.367  INFO 37584 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:27:32.387  INFO 37584 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 13:27:32.389  INFO 37584 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 13:27:32.389  INFO 37584 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63953-1546421248080-0:1) is shutting down
+2019-01-02 13:27:32.394  INFO 37584 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63953-1546421248080-0:1) uptime 4.381 seconds
+2019-01-02 13:27:32.394  INFO 37584 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-63953-1546421248080-0:1) is shutdown
+2019-01-02 13:27:33.371  WARN 37584 --- [Thread-4] o.a.a.b.TransportConnection.Transport    : Transport Connection to: vm://localhost#2 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#2) stopped.
+2019-01-02 13:27:33.372  INFO 37584 --- [Thread-4] o.a.activemq.broker.TransportConnector   : Connector vm://localhost stopped
+2019-01-02 13:29:04.200  INFO 22048 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on hp-01 with PID 22048 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:29:04.201  INFO 22048 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 13:29:05.009  WARN 22048 --- [main] o.apache.activemq.broker.BrokerRegistry  : Broker localhost not started so using embedded-broker instead
+2019-01-02 13:29:05.009  INFO 22048 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://localhost started
+2019-01-02 13:29:05.026  INFO 22048 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 1.123 seconds (JVM running for 2.938)
+2019-01-02 13:29:05.233  INFO 22048 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 13:29:05.282  INFO 22048 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:29:05.283  INFO 22048 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:29:05.283  INFO 22048 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:29:05.302  INFO 22048 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:29:08.333  INFO 22048 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 13:29:08.334  INFO 22048 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-64106-1546421343592-0:1) is shutting down
+2019-01-02 13:29:08.340  INFO 22048 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-64106-1546421343592-0:1) uptime 4.840 seconds
+2019-01-02 13:29:08.341  INFO 22048 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-64106-1546421343592-0:1) is shutdown
+2019-01-02 13:29:08.343  INFO 22048 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 13:29:09.313  WARN 22048 --- [Thread-4] o.a.a.b.TransportConnection.Transport    : Transport Connection to: vm://localhost#2 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#2) stopped.
+2019-01-02 13:29:09.314  INFO 22048 --- [Thread-4] o.a.activemq.broker.TransportConnector   : Connector vm://localhost stopped
+2019-01-02 13:31:44.751  INFO 37808 --- [main] com.az.task.UnitTests                    : Starting UnitTests on hp-01 with PID 37808 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:31:44.752  INFO 37808 --- [main] com.az.task.UnitTests                    : No active profile set, falling back to default profiles: default
+2019-01-02 13:31:45.541  INFO 37808 --- [main] com.az.task.UnitTests                    : Started UnitTests in 1.023 seconds (JVM running for 1.759)
+2019-01-02 13:31:45.681  INFO 10964 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:31:45.683  INFO 10964 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:31:45.683  INFO 10964 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:31:45.684  INFO 10964 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:32:18.999  INFO 33772 --- [main] com.az.task.UnitTests                    : Starting UnitTests on hp-01 with PID 33772 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:32:19.000  INFO 33772 --- [main] com.az.task.UnitTests                    : No active profile set, falling back to default profiles: default
+2019-01-02 13:32:19.797  INFO 33772 --- [main] com.az.task.UnitTests                    : Started UnitTests in 1.03 seconds (JVM running for 1.798)
+2019-01-02 13:32:19.929  INFO 10964 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:32:19.929  INFO 10964 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:32:19.930  INFO 10964 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:32:19.930  INFO 10964 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:32:49.016  INFO 36576 --- [main] com.az.task.IntegrationTests             : Starting IntegrationTests on hp-01 with PID 36576 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:32:49.016  INFO 36576 --- [main] com.az.task.IntegrationTests             : No active profile set, falling back to default profiles: default
+2019-01-02 13:32:49.639  WARN 36576 --- [main] o.apache.activemq.broker.BrokerRegistry  : Broker localhost not started so using embedded-broker instead
+2019-01-02 13:32:49.639  INFO 36576 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://localhost started
+2019-01-02 13:32:49.653  INFO 36576 --- [main] com.az.task.IntegrationTests             : Started IntegrationTests in 0.823 seconds (JVM running for 1.91)
+2019-01-02 13:32:49.766  INFO 36576 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-02 13:32:49.808  INFO 36576 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:32:49.808  INFO 36576 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:32:49.809  INFO 36576 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:32:49.817  INFO 36576 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
+2019-01-02 13:32:52.828  INFO 36576 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-02 13:32:52.830  INFO 36576 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-02 13:32:52.830  INFO 36576 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-64495-1546421568582-0:1) is shutting down
+2019-01-02 13:32:52.834  INFO 36576 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-64495-1546421568582-0:1) uptime 4.324 seconds
+2019-01-02 13:32:52.835  INFO 36576 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:hp-01-64495-1546421568582-0:1) is shutdown
+2019-01-02 13:32:53.822  WARN 36576 --- [Thread-4] o.a.a.b.TransportConnection.Transport    : Transport Connection to: vm://localhost#2 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#2) stopped.
+2019-01-02 13:32:53.824  INFO 36576 --- [Thread-4] o.a.activemq.broker.TransportConnector   : Connector vm://localhost stopped
+2019-01-02 13:33:20.897  INFO 10964 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-01-02 13:33:28.256  INFO 21524 --- [main] com.az.task.UnitTests                    : Starting UnitTests on hp-01 with PID 21524 (started by INTERACTIVE in D:\az\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-02 13:33:28.257  INFO 21524 --- [main] com.az.task.UnitTests                    : No active profile set, falling back to default profiles: default
+2019-01-02 13:33:29.022  INFO 21524 --- [main] com.az.task.UnitTests                    : Started UnitTests in 1.022 seconds (JVM running for 1.731)
+2019-01-02 13:33:29.170  INFO 21524 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: Message Recieved :::: 
+2019-01-02 13:33:29.171  INFO 21524 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : :::: CtrlSeg(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-02 13:33:29.171  INFO 21524 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : sendToDestinationTopicQueue method Start
+2019-01-02 13:33:29.177  INFO 21524 --- [DefaultMessageListenerContainer-1] com.az.task.component.TaskComponent      : Message successfully published on Topic-Queue
