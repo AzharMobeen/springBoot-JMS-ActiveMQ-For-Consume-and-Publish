@@ -36,8 +36,6 @@ outbound:
 	</CTRL_SEG>
 </UC_STOCK_LEVEL_IFD>
 ```
-<<<<<<< HEAD
-* Check task.log file or console.
-=======
-* Check log file or console.
->>>>>>> d26e6114de5cf0dc7e4fdc54913ddec10e714feb
+
+* Check task.log file or console for details.
+
