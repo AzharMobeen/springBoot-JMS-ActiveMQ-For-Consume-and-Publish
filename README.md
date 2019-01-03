@@ -1,6 +1,6 @@
 # SpringBoot-JMS with ActiveMQ
 
-It's a simple Spring-Boot Application for Consuming messages from ActiveMQ Queue and Publish it to ActiveMQ Topic.
+It's a simple Spring-Boot Application for Consuming messages from ActiveMQ Queue and Publish it to ActiveMQ Topic. I'm using MarshallingMessageConverter with Jaxb2Marshaller for both consuming and publishing XML message.
 
 
 * Run ActiveMQ.
@@ -38,4 +38,3 @@ outbound:
 ```
 
 * Check task.log file or console for details.
-

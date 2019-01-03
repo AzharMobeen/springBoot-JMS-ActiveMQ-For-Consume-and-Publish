@@ -2,10 +2,14 @@ package com.az.task;
 
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.assertNotNull;
 
 import java.util.Arrays;
 
+import javax.jms.BytesMessage;
 import javax.jms.ConnectionFactory;
+import javax.jms.JMSException;
+import javax.jms.Message;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -14,6 +18,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessagePostProcessor;
 import org.springframework.jms.support.converter.MarshallingMessageConverter;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -58,14 +63,42 @@ public class UnitTests{
 		
 		// For consume test I need to Publish message to ("source") ActiveMQ-Queues 
 		// Then it will consume from same Queue and Send to ("destination") ActiveMQ-Topics						  
-		this.jmsTemplate.convertAndSend(source,stockLevel);
-		// With In three seconds. @JmsListener from TaskComponent will consume message. 
-        try {
+		this.jmsTemplate.convertAndSend(source,stockLevel,
+		        new MessagePostProcessor() {
+	          @Override
+	          public Message postProcessMessage(Message message)
+	              throws JMSException {
+	            if (message instanceof BytesMessage) {
+	              BytesMessage messageBody = (BytesMessage) message;
+	              // message is in write mode, close & reset to start
+	              // of byte stream
+	              messageBody.reset();
+	 
+	              Long length = messageBody.getBodyLength();
+	              log.info("***** MSG LENGTH is {} bytes",
+	                  length);
+	              
+	              byte[] byteMyMessage = new byte[length.intValue()];
+	              messageBody.readBytes(byteMyMessage);
+	              log.info(
+	                  "***** \n<!-- XML MSG START -->\n{}\n<!-- XML MSG END -->",
+	                  new String(byteMyMessage));
+	            }
+	            return message;
+	          }
+	        });
+		
+		// With In three seconds. @JmsListener from TaskComponent will consume message.
+		
+      try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {	
 			log.error(e.toString());
 		}
-        assertThat(this.taskComponent.getStockLevel()).isEqualTo(stockLevel);                
+      StockLevel stockLevel2 =this.taskComponent.getStockLevel();        
+      assertNotNull("In Task Component We are setting this object after publishing to Topics", stockLevel2);
+      // We can also compare some properties 
+      assertThat(stockLevel2).isEqualTo(stockLevel);                
 	}		
 	
 	private void prepareDummyData() {
