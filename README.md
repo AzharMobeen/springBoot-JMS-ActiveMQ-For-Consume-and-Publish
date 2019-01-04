@@ -1,6 +1,6 @@
 # SpringBoot-JMS with ActiveMQ
 
-It's a simple Spring-Boot Application for Consuming messages from ActiveMQ Queues and Publish it to ActiveMQ Topics. I'm using MarshallingMessageConverter with Jaxb2Marshaller for both consuming and publishing XML message.
+It's a simple Spring-Boot Microservice for Consuming messages from ActiveMQ Queues and Publish it to ActiveMQ Topics. I'm using MarshallingMessageConverter with Jaxb2Marshaller for both consuming and publishing XML message.
 
 I have also created Unit test and EmbeddedActiveMQ integration test.
 
