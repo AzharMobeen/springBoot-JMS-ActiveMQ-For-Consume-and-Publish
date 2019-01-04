@@ -1,0 +1,15 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+
+logging:
+  file: task.log
+
+inbound:
+  endpoint: source
+
+outbound:
+  endpoint: destination
+
+jaxb:
+  package: com.az.task.domain
