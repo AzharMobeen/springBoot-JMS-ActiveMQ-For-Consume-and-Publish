@@ -1,4 +1,4 @@
-package com.az.task.model;
+package com.az.task.domain;
 
 import java.util.List;
 
@@ -12,9 +12,9 @@ import lombok.Data;
 @Data
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "UC_STOCK_LEVEL_IFD")
-public class StockLevel {
+public class UCStockLevelIFD {
 	
 	@XmlElement(name = "CTRL_SEG")
-	private List<CtrlSeg> ctrlSegList;
+	private List<ControlSegment> ctrlSegList;
 
 }

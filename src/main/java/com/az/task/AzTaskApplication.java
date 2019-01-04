@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootTaskApplication {
+public class AzTaskApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootTaskApplication.class, args);
+		SpringApplication.run(AzTaskApplication.class, args);
 	}
 
 }

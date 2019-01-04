@@ -1,4 +1,4 @@
-package com.az.task.model;
+package com.az.task.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -13,9 +13,9 @@ import lombok.Data;
 @Data
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "CTRL_SEG")
-public class CtrlSeg {
+public class ControlSegment {
 
-	public CtrlSeg() {
+	public ControlSegment() {
 		// TODO Auto-generated constructor stub
 	}
 	
