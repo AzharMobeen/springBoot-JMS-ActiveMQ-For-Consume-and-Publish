@@ -89,6 +89,13 @@ public class StockLevelProcessorServiceUnitTest {
 		assertThat(receivedStockLevel).isEqualTo(stockLevel);
 	}
 	
+	@Test
+	public void messageSendToTopicsQueue() {
+		this.stockLevelProcessorService.sendToDestinationTopicQueue(stockLevel);;
+		assertNotNull(this.stockLevelProcessorService.getStockLevel());
+		assertThat(this.stockLevelProcessorService.getStockLevel()).isEqualTo(stockLevel);		
+	}
+	
 	/*
 	 * This method is to prepare some dummy data for this test
 	 */

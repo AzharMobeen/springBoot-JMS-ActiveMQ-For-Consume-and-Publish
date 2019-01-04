@@ -34,9 +34,7 @@ public class StockLevelProcessorService {
 		
 		log.info(":::: Message Recieved :::: ");
 		this.displayResult(stockLevel);			
-		this.sendToDestinationTopicQueue(stockLevel);
-		// For Testing purpose flag
-		this.stockLevel = stockLevel;
+		this.sendToDestinationTopicQueue(stockLevel);		
 		
 	}
 	
@@ -53,6 +51,8 @@ public class StockLevelProcessorService {
 		log.info("\n\tsendToDestinationTopicQueue method Start");
 		this.jmsTemplate.convertAndSend(destination, stockLevel);
 		log.info("\n\tMessage successfully published on Topic-Queue");
+		// For Testing purpose flag
+		this.stockLevel = stockLevel;
 	}
 	
 }

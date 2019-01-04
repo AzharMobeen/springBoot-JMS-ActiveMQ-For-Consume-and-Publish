@@ -141,3 +141,364 @@ Message successfully published on Topic-Queue
 2019-01-04 10:50:38.739  INFO 7416 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-64097-1546584631895-0:1) is shutdown
 2019-01-04 10:50:39.672  WARN 7416 --- [Thread-4] o.a.a.b.TransportConnection.Transport    : Transport Connection to: vm://localhost#2 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#2) stopped.
 2019-01-04 10:50:39.674  INFO 7416 --- [Thread-4] o.a.activemq.broker.TransportConnector   : Connector vm://localhost stopped
+2019-01-04 14:11:18.781  INFO 4612 --- [main] tockLevelProcessorServiceIntegrationTest : Starting StockLevelProcessorServiceIntegrationTest on NRWPTEC02BJHB-W with PID 4612 (started by Az in D:\eclispeWorkspace\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-04 14:11:18.803  INFO 4612 --- [main] tockLevelProcessorServiceIntegrationTest : No active profile set, falling back to default profiles: default
+2019-01-04 14:11:21.701  WARN 4612 --- [main] o.apache.activemq.broker.BrokerRegistry  : Broker localhost not started so using embedded-broker instead
+2019-01-04 14:11:21.702  INFO 4612 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://localhost started
+2019-01-04 14:11:21.743  INFO 4612 --- [main] tockLevelProcessorServiceIntegrationTest : Started StockLevelProcessorServiceIntegrationTest in 3.816 seconds (JVM running for 9.376)
+2019-01-04 14:11:22.228  INFO 4612 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:11:22.347  INFO 4612 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:11:22.451  INFO 4612 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-04 14:11:22.460  INFO 4612 --- [main] tockLevelProcessorServiceIntegrationTest : ***** MSG LENGTH is 475 bytes
+2019-01-04 14:11:22.460  INFO 4612 --- [main] tockLevelProcessorServiceIntegrationTest : ***** 
+<!-- XML MSG START -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UC_STOCK_LEVEL_IFD>
+    <CTRL_SEG>
+        <TRNNAM>UU_SSSS_LEVEL</TRNNAM>
+        <TRNVER>20180100</TRNVER>
+        <UUID>0de01919-81eb-4cc7-a51d-15f6085fc1a4</UUID>
+        <WH_ID>WHHHH</WH_ID>
+        <CLIENT_ID>CLI</CLIENT_ID>
+        <ISO_2_CTRY_NAME>xxxx</ISO_2_CTRY_NAME>
+        <REQUEST_ID>bcccc8-5a07-4hi6-8yyy-8290d3ccfb51</REQUEST_ID>
+        <ROUTE_ID>6543</ROUTE_ID>
+    </CTRL_SEG>
+</UC_STOCK_LEVEL_IFD>
+
+<!-- XML MSG END -->
+2019-01-04 14:11:22.687  INFO 4612 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : :::: Message Recieved :::: 
+2019-01-04 14:11:22.689  INFO 4612 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+:::: ControlSegment(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-04 14:11:22.689  INFO 4612 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:11:22.691  INFO 4612 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:11:25.472  INFO 4612 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-04 14:11:25.476  INFO 4612 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-04 14:11:25.477  INFO 4612 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-64799-1546596677176-0:1) is shutting down
+2019-01-04 14:11:25.518  INFO 4612 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-64799-1546596677176-0:1) uptime 8.914 seconds
+2019-01-04 14:11:25.519  INFO 4612 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-64799-1546596677176-0:1) is shutdown
+2019-01-04 14:11:25.698  WARN 4612 --- [Thread-4] o.a.a.b.TransportConnection.Transport    : Transport Connection to: vm://localhost#2 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#2) stopped.
+2019-01-04 14:11:25.702  INFO 4612 --- [Thread-4] o.a.activemq.broker.TransportConnector   : Connector vm://localhost stopped
+2019-01-04 14:12:13.577  INFO 6668 --- [main] tockLevelProcessorServiceIntegrationTest : Starting StockLevelProcessorServiceIntegrationTest on NRWPTEC02BJHB-W with PID 6668 (started by Az in D:\eclispeWorkspace\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-04 14:12:13.579  INFO 6668 --- [main] tockLevelProcessorServiceIntegrationTest : No active profile set, falling back to default profiles: default
+2019-01-04 14:12:15.040  WARN 6668 --- [main] o.apache.activemq.broker.BrokerRegistry  : Broker localhost not started so using embedded-broker instead
+2019-01-04 14:12:15.041  INFO 6668 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://localhost started
+2019-01-04 14:12:15.071  INFO 6668 --- [main] tockLevelProcessorServiceIntegrationTest : Started StockLevelProcessorServiceIntegrationTest in 1.863 seconds (JVM running for 3.586)
+2019-01-04 14:12:15.495  INFO 6668 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:12:15.529  INFO 6668 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:12:15.596  INFO 6668 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-04 14:12:15.603  INFO 6668 --- [main] tockLevelProcessorServiceIntegrationTest : ***** MSG LENGTH is 475 bytes
+2019-01-04 14:12:15.604  INFO 6668 --- [main] tockLevelProcessorServiceIntegrationTest : ***** 
+<!-- XML MSG START -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UC_STOCK_LEVEL_IFD>
+    <CTRL_SEG>
+        <TRNNAM>UU_SSSS_LEVEL</TRNNAM>
+        <TRNVER>20180100</TRNVER>
+        <UUID>0de01919-81eb-4cc7-a51d-15f6085fc1a4</UUID>
+        <WH_ID>WHHHH</WH_ID>
+        <CLIENT_ID>CLI</CLIENT_ID>
+        <ISO_2_CTRY_NAME>xxxx</ISO_2_CTRY_NAME>
+        <REQUEST_ID>bcccc8-5a07-4hi6-8yyy-8290d3ccfb51</REQUEST_ID>
+        <ROUTE_ID>6543</ROUTE_ID>
+    </CTRL_SEG>
+</UC_STOCK_LEVEL_IFD>
+
+<!-- XML MSG END -->
+2019-01-04 14:12:15.673  INFO 6668 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : :::: Message Recieved :::: 
+2019-01-04 14:12:15.674  INFO 6668 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+:::: ControlSegment(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-04 14:12:15.674  INFO 6668 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:12:15.677  INFO 6668 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:12:18.622  INFO 6668 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-04 14:12:18.628  INFO 6668 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-04 14:12:18.629  INFO 6668 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-64813-1546596732795-0:1) is shutting down
+2019-01-04 14:12:18.645  INFO 6668 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-64813-1546596732795-0:1) uptime 5.967 seconds
+2019-01-04 14:12:18.645  INFO 6668 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-64813-1546596732795-0:1) is shutdown
+2019-01-04 14:12:18.686  WARN 6668 --- [Thread-4] o.a.a.b.TransportConnection.Transport    : Transport Connection to: vm://localhost#2 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#2) stopped.
+2019-01-04 14:12:18.691  INFO 6668 --- [Thread-4] o.a.activemq.broker.TransportConnector   : Connector vm://localhost stopped
+2019-01-04 14:15:27.803  INFO 12544 --- [main] tockLevelProcessorServiceIntegrationTest : Starting StockLevelProcessorServiceIntegrationTest on NRWPTEC02BJHB-W with PID 12544 (started by Az in D:\eclispeWorkspace\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-04 14:15:27.805  INFO 12544 --- [main] tockLevelProcessorServiceIntegrationTest : No active profile set, falling back to default profiles: default
+2019-01-04 14:15:29.273  WARN 12544 --- [main] o.apache.activemq.broker.BrokerRegistry  : Broker localhost not started so using embedded-broker instead
+2019-01-04 14:15:29.274  INFO 12544 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://localhost started
+2019-01-04 14:15:29.308  INFO 12544 --- [main] tockLevelProcessorServiceIntegrationTest : Started StockLevelProcessorServiceIntegrationTest in 1.876 seconds (JVM running for 3.527)
+2019-01-04 14:15:29.754  INFO 12544 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:15:29.883  INFO 12544 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:15:29.889  INFO 12544 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:15:29.976  INFO 12544 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-04 14:15:29.984  INFO 12544 --- [main] tockLevelProcessorServiceIntegrationTest : ***** MSG LENGTH is 475 bytes
+2019-01-04 14:15:29.985  INFO 12544 --- [main] tockLevelProcessorServiceIntegrationTest : ***** 
+<!-- XML MSG START -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UC_STOCK_LEVEL_IFD>
+    <CTRL_SEG>
+        <TRNNAM>UU_SSSS_LEVEL</TRNNAM>
+        <TRNVER>20180100</TRNVER>
+        <UUID>0de01919-81eb-4cc7-a51d-15f6085fc1a4</UUID>
+        <WH_ID>WHHHH</WH_ID>
+        <CLIENT_ID>CLI</CLIENT_ID>
+        <ISO_2_CTRY_NAME>xxxx</ISO_2_CTRY_NAME>
+        <REQUEST_ID>bcccc8-5a07-4hi6-8yyy-8290d3ccfb51</REQUEST_ID>
+        <ROUTE_ID>6543</ROUTE_ID>
+    </CTRL_SEG>
+</UC_STOCK_LEVEL_IFD>
+
+<!-- XML MSG END -->
+2019-01-04 14:15:30.046  INFO 12544 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : :::: Message Recieved :::: 
+2019-01-04 14:15:30.048  INFO 12544 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+:::: ControlSegment(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-04 14:15:30.050  INFO 12544 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:15:30.053  INFO 12544 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:15:33.002  INFO 12544 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-04 14:15:33.008  INFO 12544 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-04 14:15:33.009  INFO 12544 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-64852-1546596927012-0:1) is shutting down
+2019-01-04 14:15:33.025  INFO 12544 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-64852-1546596927012-0:1) uptime 6.127 seconds
+2019-01-04 14:15:33.025  INFO 12544 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-64852-1546596927012-0:1) is shutdown
+2019-01-04 14:15:33.062  WARN 12544 --- [Thread-4] o.a.a.b.TransportConnection.Transport    : Transport Connection to: vm://localhost#2 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#2) stopped.
+2019-01-04 14:15:33.064  INFO 12544 --- [Thread-4] o.a.activemq.broker.TransportConnector   : Connector vm://localhost stopped
+2019-01-04 14:16:15.846  INFO 8060 --- [main] tockLevelProcessorServiceIntegrationTest : Starting StockLevelProcessorServiceIntegrationTest on NRWPTEC02BJHB-W with PID 8060 (started by Az in D:\eclispeWorkspace\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-04 14:16:15.848  INFO 8060 --- [main] tockLevelProcessorServiceIntegrationTest : No active profile set, falling back to default profiles: default
+2019-01-04 14:16:17.326  WARN 8060 --- [main] o.apache.activemq.broker.BrokerRegistry  : Broker localhost not started so using embedded-broker instead
+2019-01-04 14:16:17.327  INFO 8060 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://localhost started
+2019-01-04 14:16:17.356  INFO 8060 --- [main] tockLevelProcessorServiceIntegrationTest : Started StockLevelProcessorServiceIntegrationTest in 1.87 seconds (JVM running for 3.622)
+2019-01-04 14:16:17.670  INFO 8060 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:16:17.711  INFO 8060 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-04 14:16:17.716  INFO 8060 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-04 14:16:17.716  INFO 8060 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-64863-1546596975044-0:1) is shutting down
+2019-01-04 14:16:17.725  INFO 8060 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-64863-1546596975044-0:1) uptime 2.801 seconds
+2019-01-04 14:16:17.726  INFO 8060 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-64863-1546596975044-0:1) is shutdown
+2019-01-04 14:16:18.475  WARN 8060 --- [Thread-4] o.a.a.b.TransportConnection.Transport    : Transport Connection to: vm://localhost#2 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#2) stopped.
+2019-01-04 14:16:18.478  INFO 8060 --- [Thread-4] o.a.activemq.broker.TransportConnector   : Connector vm://localhost stopped
+2019-01-04 14:30:00.178  INFO 5476 --- [main] c.a.t.StockLevelProcessorServiceUnitTest : Starting StockLevelProcessorServiceUnitTest on NRWPTEC02BJHB-W with PID 5476 (started by Az in D:\eclispeWorkspace\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-04 14:30:00.180  INFO 5476 --- [main] c.a.t.StockLevelProcessorServiceUnitTest : No active profile set, falling back to default profiles: default
+2019-01-04 14:30:01.996  INFO 5476 --- [main] c.a.t.StockLevelProcessorServiceUnitTest : Started StockLevelProcessorServiceUnitTest in 2.293 seconds (JVM running for 3.4)
+2019-01-04 14:30:02.352  INFO 5476 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:30:02.392  INFO 5476 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:30:02.477  INFO 5476 --- [main] c.a.t.StockLevelProcessorServiceUnitTest : ***** MSG LENGTH is 475 bytes
+2019-01-04 14:30:02.478  INFO 5476 --- [main] c.a.t.StockLevelProcessorServiceUnitTest : ***** 
+<!-- XML MSG START -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UC_STOCK_LEVEL_IFD>
+    <CTRL_SEG>
+        <TRNNAM>UU_SSSS_LEVEL</TRNNAM>
+        <TRNVER>20180100</TRNVER>
+        <UUID>0de01919-81eb-4cc7-a51d-15f6085fc1a4</UUID>
+        <WH_ID>WHHHH</WH_ID>
+        <CLIENT_ID>CLI</CLIENT_ID>
+        <ISO_2_CTRY_NAME>xxxx</ISO_2_CTRY_NAME>
+        <REQUEST_ID>bcccc8-5a07-4hi6-8yyy-8290d3ccfb51</REQUEST_ID>
+        <ROUTE_ID>6543</ROUTE_ID>
+    </CTRL_SEG>
+</UC_STOCK_LEVEL_IFD>
+
+<!-- XML MSG END -->
+2019-01-04 14:30:02.548  INFO 5476 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : :::: Message Recieved :::: 
+2019-01-04 14:30:02.554  INFO 5476 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+:::: ControlSegment(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-04 14:30:02.554  INFO 5476 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:30:02.572  INFO 5476 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:30:27.613  INFO 10768 --- [main] tockLevelProcessorServiceIntegrationTest : Starting StockLevelProcessorServiceIntegrationTest on NRWPTEC02BJHB-W with PID 10768 (started by Az in D:\eclispeWorkspace\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-04 14:30:27.616  INFO 10768 --- [main] tockLevelProcessorServiceIntegrationTest : No active profile set, falling back to default profiles: default
+2019-01-04 14:30:29.088  WARN 10768 --- [main] o.apache.activemq.broker.BrokerRegistry  : Broker localhost not started so using embedded-broker instead
+2019-01-04 14:30:29.089  INFO 10768 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://localhost started
+2019-01-04 14:30:29.122  INFO 10768 --- [main] tockLevelProcessorServiceIntegrationTest : Started StockLevelProcessorServiceIntegrationTest in 1.889 seconds (JVM running for 3.742)
+2019-01-04 14:30:29.481  INFO 10768 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:30:29.509  INFO 10768 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:30:29.568  INFO 10768 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-04 14:30:29.573  INFO 10768 --- [main] tockLevelProcessorServiceIntegrationTest : ***** MSG LENGTH is 475 bytes
+2019-01-04 14:30:29.574  INFO 10768 --- [main] tockLevelProcessorServiceIntegrationTest : ***** 
+<!-- XML MSG START -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UC_STOCK_LEVEL_IFD>
+    <CTRL_SEG>
+        <TRNNAM>UU_SSSS_LEVEL</TRNNAM>
+        <TRNVER>20180100</TRNVER>
+        <UUID>0de01919-81eb-4cc7-a51d-15f6085fc1a4</UUID>
+        <WH_ID>WHHHH</WH_ID>
+        <CLIENT_ID>CLI</CLIENT_ID>
+        <ISO_2_CTRY_NAME>xxxx</ISO_2_CTRY_NAME>
+        <REQUEST_ID>bcccc8-5a07-4hi6-8yyy-8290d3ccfb51</REQUEST_ID>
+        <ROUTE_ID>6543</ROUTE_ID>
+    </CTRL_SEG>
+</UC_STOCK_LEVEL_IFD>
+
+<!-- XML MSG END -->
+2019-01-04 14:30:29.624  INFO 10768 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : :::: Message Recieved :::: 
+2019-01-04 14:30:29.625  INFO 10768 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+:::: ControlSegment(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-04 14:30:29.626  INFO 10768 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:30:29.630  INFO 10768 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:30:32.589  INFO 10768 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-04 14:30:32.595  INFO 10768 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-04 14:30:32.596  INFO 10768 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-65517-1546597826781-0:1) is shutting down
+2019-01-04 14:30:32.611  INFO 10768 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-65517-1546597826781-0:1) uptime 5.949 seconds
+2019-01-04 14:30:32.611  INFO 10768 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-65517-1546597826781-0:1) is shutdown
+2019-01-04 14:30:32.640  WARN 10768 --- [Thread-4] o.a.a.b.TransportConnection.Transport    : Transport Connection to: vm://localhost#2 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#2) stopped.
+2019-01-04 14:30:32.643  INFO 10768 --- [Thread-4] o.a.activemq.broker.TransportConnector   : Connector vm://localhost stopped
+2019-01-04 14:30:50.166  INFO 1320 --- [restartedMain] com.az.task.AzTaskApplication            : Starting AzTaskApplication on NRWPTEC02BJHB-W with PID 1320 (D:\eclispeWorkspace\springBoot-JMS-ActiveMQ-For-Consume-and-Publish\target\classes started by Az in D:\eclispeWorkspace\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-04 14:30:50.172  INFO 1320 --- [restartedMain] com.az.task.AzTaskApplication            : No active profile set, falling back to default profiles: default
+2019-01-04 14:30:50.229  INFO 1320 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-04 14:30:51.640  INFO 1320 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-04 14:30:51.885  INFO 1320 --- [restartedMain] com.az.task.AzTaskApplication            : Started AzTaskApplication in 2.152 seconds (JVM running for 4.083)
+2019-01-04 14:31:35.394  INFO 1320 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : :::: Message Recieved :::: 
+2019-01-04 14:31:35.396  INFO 1320 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+:::: ControlSegment(trnName=UC_STOCK_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHS01, clientId=CLIE01, ctryName=GB, requestId=bc2a55e8-5a07-4af6-85fd-8290d3ccfb51, routeId=186) :::: 
+2019-01-04 14:31:35.397  INFO 1320 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:31:35.418  INFO 1320 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:32:00.774  WARN 1320 --- [DefaultMessageListenerContainer-1] com.az.task.errors.ListenerErrorHandler  : 
+	Listener is Unable to unmarshal the Message
+2019-01-04 14:32:00.775 ERROR 1320 --- [DefaultMessageListenerContainer-1] com.az.task.errors.ListenerErrorHandler  : 
+	Could not unmarshal message: ActiveMQTextMessage {commandId = 6, responseRequired = false, messageId = ID:NRWPTEC02BJHB-W-65468-1546597633271-4:1:1:1:2, originalDestination = null, originalTransactionId = null, producerId = ID:NRWPTEC02BJHB-W-65468-1546597633271-4:1:1:1, destination = queue://source, transactionId = null, expiration = 0, timestamp = 1546597920687, arrival = 0, brokerInTime = 1546597920691, brokerOutTime = 1546597920694, correlationId = , replyTo = null, persistent = false, type = , priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = true, readOnlyBody = true, droppable = false, jmsXGroupFirstForConsumer = false, text = Enter some text here for the message body...}; nested exception is org.springframework.oxm.UnmarshallingFailureException: JAXB unmarshalling exception; nested exception is javax.xml.bind.UnmarshalException
+ - with linked exception:
+[org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.]
+2019-01-04 14:32:59.894  INFO 1320 --- [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61616@65526] o.s.j.c.CachingConnectionFactory         : Encountered a JMSException - resetting the underlying JMS Connection
+
+javax.jms.JMSException: Connection reset
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:54) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1960) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1979) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:345) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219) ~[activemq-client-5.15.8.jar:5.15.8]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[na:1.8.0_152]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_152]
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:634) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:59) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:619) ~[activemq-client-5.15.8.jar:5.15.8]
+	at java.io.DataInputStream.readInt(DataInputStream.java:387) ~[na:1.8.0_152]
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:268) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232) ~[activemq-client-5.15.8.jar:5.15.8]
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215) ~[activemq-client-5.15.8.jar:5.15.8]
+	... 1 common frames omitted
+
+2019-01-04 14:32:59.902  WARN 1320 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Setup of JMS message listener invoker failed for destination 'source' - trying to recover. Cause: The Session is closed
+2019-01-04 14:33:00.962 ERROR 1320 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-01-04 14:33:06.968 ERROR 1320 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-01-04 14:33:12.971 ERROR 1320 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=2, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-01-04 14:33:18.976 ERROR 1320 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=3, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-01-04 14:33:24.978 ERROR 1320 --- [DefaultMessageListenerContainer-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'source' - retrying using FixedBackOff{interval=5000, currentAttempts=4, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+2019-01-04 14:34:33.222  INFO 9228 --- [main] tockLevelProcessorServiceIntegrationTest : Starting StockLevelProcessorServiceIntegrationTest on NRWPTEC02BJHB-W with PID 9228 (started by Az in D:\eclispeWorkspace\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-04 14:34:33.225  INFO 9228 --- [main] tockLevelProcessorServiceIntegrationTest : No active profile set, falling back to default profiles: default
+2019-01-04 14:34:36.430  WARN 9228 --- [main] o.apache.activemq.broker.BrokerRegistry  : Broker localhost not started so using embedded-broker instead
+2019-01-04 14:34:36.431  INFO 9228 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://localhost started
+2019-01-04 14:34:36.469  INFO 9228 --- [main] tockLevelProcessorServiceIntegrationTest : Started StockLevelProcessorServiceIntegrationTest in 4.634 seconds (JVM running for 10.596)
+2019-01-04 14:34:37.771  INFO 9228 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:34:37.832  INFO 9228 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:34:38.256  INFO 9228 --- [ActiveMQ Task-1] o.a.a.t.failover.FailoverTransport       : Successfully connected to vm://embedded-broker?create=false
+2019-01-04 14:34:38.270  INFO 9228 --- [main] tockLevelProcessorServiceIntegrationTest : ***** MSG LENGTH is 475 bytes
+2019-01-04 14:34:38.270  INFO 9228 --- [main] tockLevelProcessorServiceIntegrationTest : ***** 
+<!-- XML MSG START -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UC_STOCK_LEVEL_IFD>
+    <CTRL_SEG>
+        <TRNNAM>UU_SSSS_LEVEL</TRNNAM>
+        <TRNVER>20180100</TRNVER>
+        <UUID>0de01919-81eb-4cc7-a51d-15f6085fc1a4</UUID>
+        <WH_ID>WHHHH</WH_ID>
+        <CLIENT_ID>CLI</CLIENT_ID>
+        <ISO_2_CTRY_NAME>xxxx</ISO_2_CTRY_NAME>
+        <REQUEST_ID>bcccc8-5a07-4hi6-8yyy-8290d3ccfb51</REQUEST_ID>
+        <ROUTE_ID>6543</ROUTE_ID>
+    </CTRL_SEG>
+</UC_STOCK_LEVEL_IFD>
+
+<!-- XML MSG END -->
+2019-01-04 14:34:38.372  INFO 9228 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : :::: Message Recieved :::: 
+2019-01-04 14:34:38.373  INFO 9228 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+:::: ControlSegment(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-04 14:34:38.374  INFO 9228 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:34:38.378  INFO 9228 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:34:41.320  INFO 9228 --- [main] o.a.a.junit.EmbeddedActiveMQBroker       : Stopping Embedded ActiveMQ Broker: embedded-broker
+2019-01-04 14:34:41.396  INFO 9228 --- [main] o.a.activemq.broker.TransportConnector   : Connector vm://embedded-broker stopped
+2019-01-04 14:34:41.397  INFO 9228 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-49221-1546598070773-0:1) is shutting down
+2019-01-04 14:34:41.433  INFO 9228 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-49221-1546598070773-0:1) uptime 10.900 seconds
+2019-01-04 14:34:41.434  INFO 9228 --- [main] o.apache.activemq.broker.BrokerService   : Apache ActiveMQ 5.15.8 (embedded-broker, ID:NRWPTEC02BJHB-W-49221-1546598070773-0:1) is shutdown
+2019-01-04 14:34:41.443  INFO 9228 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.az.task.StockLevelProcessorServiceUnitTest], using SpringBootContextLoader
+2019-01-04 14:34:41.446  INFO 9228 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.az.task.StockLevelProcessorServiceUnitTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-01-04 14:34:41.447  INFO 9228 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.az.task.StockLevelProcessorServiceUnitTest]: StockLevelProcessorServiceUnitTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-01-04 14:34:41.453  INFO 9228 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.az.task.AzTaskApplication for test class com.az.task.StockLevelProcessorServiceUnitTest
+2019-01-04 14:34:41.459  INFO 9228 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-01-04 14:34:41.462  INFO 9228 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@ea9e141, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e54cb33, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@33cbfa57, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1d96d872, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5c748168, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6441c486, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@834831b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@234a8f27, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5b4d25e7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@31c2affc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1dc2de84]
+2019-01-04 14:34:41.550  INFO 9228 --- [main] c.a.t.StockLevelProcessorServiceUnitTest : Starting StockLevelProcessorServiceUnitTest on NRWPTEC02BJHB-W with PID 9228 (started by Az in D:\eclispeWorkspace\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-04 14:34:41.551  INFO 9228 --- [main] c.a.t.StockLevelProcessorServiceUnitTest : No active profile set, falling back to default profiles: default
+2019-01-04 14:34:42.469  INFO 9228 --- [main] c.a.t.StockLevelProcessorServiceUnitTest : Started StockLevelProcessorServiceUnitTest in 1.002 seconds (JVM running for 16.597)
+2019-01-04 14:34:42.482  INFO 9228 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:34:42.501  INFO 9228 --- [main] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:34:42.513  INFO 9228 --- [main] c.a.t.StockLevelProcessorServiceUnitTest : ***** MSG LENGTH is 475 bytes
+2019-01-04 14:34:42.513  INFO 9228 --- [main] c.a.t.StockLevelProcessorServiceUnitTest : ***** 
+<!-- XML MSG START -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UC_STOCK_LEVEL_IFD>
+    <CTRL_SEG>
+        <TRNNAM>UU_SSSS_LEVEL</TRNNAM>
+        <TRNVER>20180100</TRNVER>
+        <UUID>0de01919-81eb-4cc7-a51d-15f6085fc1a4</UUID>
+        <WH_ID>WHHHH</WH_ID>
+        <CLIENT_ID>CLI</CLIENT_ID>
+        <ISO_2_CTRY_NAME>xxxx</ISO_2_CTRY_NAME>
+        <REQUEST_ID>bcccc8-5a07-4hi6-8yyy-8290d3ccfb51</REQUEST_ID>
+        <ROUTE_ID>6543</ROUTE_ID>
+    </CTRL_SEG>
+</UC_STOCK_LEVEL_IFD>
+
+<!-- XML MSG END -->
+2019-01-04 14:34:42.529  INFO 9228 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : :::: Message Recieved :::: 
+2019-01-04 14:34:42.529  INFO 9228 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+:::: ControlSegment(trnName=UU_SSSS_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHHHH, clientId=CLI, ctryName=xxxx, requestId=bcccc8-5a07-4hi6-8yyy-8290d3ccfb51, routeId=6543) :::: 
+2019-01-04 14:34:42.529  INFO 9228 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:34:42.564  INFO 9228 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue
+2019-01-04 14:34:46.392  WARN 9228 --- [Thread-4] o.a.a.b.TransportConnection.Transport    : Transport Connection to: vm://localhost#2 failed: org.apache.activemq.transport.TransportDisposedIOException: peer (vm://localhost#2) stopped.
+2019-01-04 14:34:46.397  INFO 9228 --- [Thread-4] o.a.activemq.broker.TransportConnector   : Connector vm://localhost stopped
+2019-01-04 14:35:45.151  INFO 1664 --- [restartedMain] com.az.task.AzTaskApplication            : Starting AzTaskApplication on NRWPTEC02BJHB-W with PID 1664 (D:\eclispeWorkspace\springBoot-JMS-ActiveMQ-For-Consume-and-Publish\target\classes started by Az in D:\eclispeWorkspace\springBoot-JMS-ActiveMQ-For-Consume-and-Publish)
+2019-01-04 14:35:45.156  INFO 1664 --- [restartedMain] com.az.task.AzTaskApplication            : No active profile set, falling back to default profiles: default
+2019-01-04 14:35:45.227  INFO 1664 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-04 14:35:46.809  INFO 1664 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-04 14:35:47.195  INFO 1664 --- [restartedMain] com.az.task.AzTaskApplication            : Started AzTaskApplication in 2.582 seconds (JVM running for 3.444)
+2019-01-04 14:36:13.589  INFO 1664 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : :::: Message Recieved :::: 
+2019-01-04 14:36:13.591  INFO 1664 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+:::: ControlSegment(trnName=UC_STOCK_LEVEL, trnver=20180100, uuid=0de01919-81eb-4cc7-a51d-15f6085fc1a4, warehouseId=WHS01, clientId=CLIE01, ctryName=GB, requestId=bc2a55e8-5a07-4af6-85fd-8290d3ccfb51, routeId=186) :::: 
+2019-01-04 14:36:13.593  INFO 1664 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	sendToDestinationTopicQueue method Start
+2019-01-04 14:36:13.630  INFO 1664 --- [DefaultMessageListenerContainer-1] c.a.t.s.StockLevelProcessorService       : 
+	Message successfully published on Topic-Queue

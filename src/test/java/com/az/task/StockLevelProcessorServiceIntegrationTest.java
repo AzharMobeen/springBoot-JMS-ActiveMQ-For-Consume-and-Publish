@@ -1,7 +1,9 @@
 package com.az.task;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 
 import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
@@ -53,7 +55,7 @@ public class StockLevelProcessorServiceIntegrationTest {
 	private JmsTemplate jmsTemplate;
 
 	@Autowired
-	private StockLevelProcessorService stockLevelProcessorservice;
+	private StockLevelProcessorService stockLevelProcessorService;
 
 	private UCStockLevelIFD stockLevel;
 
@@ -96,10 +98,17 @@ public class StockLevelProcessorServiceIntegrationTest {
 			log.error(e.toString());
 		}
 
-		UCStockLevelIFD receivedStockLevel = this.stockLevelProcessorservice.getStockLevel();
+		UCStockLevelIFD receivedStockLevel = this.stockLevelProcessorService.getStockLevel();
 		assertNotNull("In Task Component We are setting this object after publishing to Topics", receivedStockLevel);
 		assertThat(receivedStockLevel).isEqualTo(stockLevel);
 	}
+	
+	@Test
+	public void messageSendToTopicsQueue() {
+		this.stockLevelProcessorService.sendToDestinationTopicQueue(this.stockLevel);
+		assertNotNull(this.stockLevelProcessorService.getStockLevel());
+		assertThat(this.stockLevelProcessorService.getStockLevel()).isEqualTo(stockLevel);		
+	}		
 
 	/*
 	 * This method is to prepare some dummy data for this test
